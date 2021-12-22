@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
-
+import "./FullWidthImage.css"
 export default function FullWidthImage(props) {
   const {
     height = 400,
@@ -22,7 +22,7 @@ export default function FullWidthImage(props) {
       >
         {img?.url ? (
           <img
-            src={img}
+            //src={img}
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
@@ -30,6 +30,9 @@ export default function FullWidthImage(props) {
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
+              backgroundSize:"cover",
+              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
+              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
@@ -46,6 +49,9 @@ export default function FullWidthImage(props) {
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
+              backgroundSize:"cover",
+              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
+              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -67,28 +73,14 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-            {title && (
-              <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
-              >
-                {title}
-              </h1>
-            )}
+            
             {subheading && (
               <h3
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                    "rgba(255, 255, 255,0)",
+                  backgroundColor: "rgba(255, 68, 0,0)",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
@@ -97,6 +89,22 @@ export default function FullWidthImage(props) {
               >
                 {subheading}
               </h3>
+            )}
+            {title && (
+              <h1
+                className="has-text-weight-bold is-size-3-mobile is-size-1-tablet is-size-1-widescreen"
+                style={{
+                  boxShadow:
+                    "rgba(255, 255, 255,0)",
+                  backgroundColor: "rgba(255, 68, 0,0)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25em",
+                  letterSpacing:"30px",
+                }}
+                >
+                {title}
+              </h1>
             )}
           </div>
         )}
