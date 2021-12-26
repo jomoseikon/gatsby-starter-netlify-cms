@@ -1,0 +1,12 @@
+.navbar a:link, a:visited {
+    color:white ;
+	background-color:rgba(40,86,161,1);
+
+}	
+.navbar a:hover {
+	color:#4d9ef5 !important;
+}
+.navbar .is-transparent { 
+		background-color:transparent;
+		background-image:none;
+}

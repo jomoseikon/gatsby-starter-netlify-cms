@@ -1,19 +1,51 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: 会則
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### （名　称）
+第１条　本会は、群馬政経懇話会（以下「本会」という）と称する。
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### （事務局）
+ 第２条　本会の事務局は上毛新聞社内に置く。<br />
+        　　　　住所　群馬県前橋市古市町1-50-21　上毛新聞社営業局内<br />
+        　　　　電話番号　027-254-9955<br />
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### （目　的）
+第３条　本会は群馬県の政治・経済界の充実と発展を図るための諸事業を行うとともに、会員相互の親睦を図ることを目的とする。
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### （事　業）
+ 第４条　本会は第3条の目的を達成するため、次の事業を行う。<br />
+        （１）　会員には政治情報や経済資料、その他の関係資料を定期的に配布。<br />
+        （２）　講演会、研修会を開催。<br />
+        （３）　その他、本会が必要と認める事業。<br />
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### （会　員）
+第５条　本会の会員は群馬県の政治・経済・文化界などの指導的地位にあり、本会の趣旨に賛同するものをもって構成する。
+
+### （役　員）
+第６条　会長（代表）は、上毛新聞社代表取締役社長があたり、事務局長は上毛新聞社営業局事業部長があたる。
+
+### （入　会）
+第7条　本会に入会を希望する者は、別紙申込書に必要事項を記入し、事務局の承認を受けたのち、会員の資格を得るものとする。
+### （会　費）
+第８条　本会は、会の運営を行うため、年額72,000円の会費を設ける。
+
+&emsp;<br />
+###  ■「群馬政経懇話会」入会のご案内
+（１）毎月1回（8月を除く）昼食会の後、一流の講師を招き、時宜を得たテーマで講演会を開催します。また、経済誌「プレジデント」（月2回）をお届けしております。<br />
+        　※開催回数は変更することもございます。<br />
+        　※代理出席が可能です。
+
+&emsp;<br />
+（２）会費について<br />
+        ・会費は年額72,000円です。（2020年3月現在）<br />
+        ・会費の納入は前納とさせていただきます。<br />
+        ※前期4月～9月、後期10月～3月の半期ごとの納金でも構いません。<br />
+        ※既納の会費につきましては、原則としてご返金いたしませんのでご了承ください。<br />
+
+&emsp;<br />
+（３）入会される場合は、所定の「入会申込書」をご提出ください。
+
+&emsp;<br />
+（４）退会される場合は、「会員情報変更届」にてご連絡ください。

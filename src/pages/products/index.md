@@ -1,9 +1,10 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+title: 群馬政経懇話会
+subheading: 〜混沌の時代を読み解く"知的交流サロン"〜
+image: /img/home-jumbotron.jpg
+heading: 入会のご案内
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
