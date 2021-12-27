@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 群馬政経懇話会
+title: c
 image: /img/home-jumbotron.jpg
 heading: 群馬政経懇話会
-subheading: 〜混沌の時代を読み解く"知的交流サロン"〜
+c
 mainpitch:
   title: .
   description: >
