@@ -8,12 +8,12 @@ image: /img/home-jumbotron.jpg
 description: 群馬政経懇話会は、新会員を募集しています。
 intro:
   blurbs:
-    - image: static/img/coffee.jpg
+    - image: /img/tutorials.jpg
       text: |-
         毎月１回（月休会）、昼食会の後に多彩な講師を迎えて講演会を開催します。
         併せて情報誌の定期配布なども行い、会員組織の「知的サロン」として喜ばれています。
         年会費は72,000円です。
-    - image: static/img/coffee-gear.jpg
+    - image: /img/meeting-space.jpg
       text: |
         県内、国内の「話題のテーマ」を取り上げ、幅広い分野の講師を招いて、お話を伺います。
         様々な社会の変化に対応する考え方や、解決する課題を見つけるきっかけにしていただけます。
