@@ -31,10 +31,10 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="title">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h3 className="subtitle is-6">{mainpitch.description}</h3>
                     </div>
                     <div className="title">
-                      <h1 className="title">{mainpitch.title}</h1>
+                      <h1 className="title is-6">{mainpitch.title}</h1>
                     </div>
                   </div>
                   <div className="columns">
