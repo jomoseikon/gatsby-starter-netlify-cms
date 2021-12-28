@@ -1,33 +1,30 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: 迫る東京五輪と解散総選挙の行方
 date: 2016-12-17T15:04:10.000Z
+description: |+
+  後藤 謙次
+
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
-tags:
-  - flavor
-  - tasting
+tags: []
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+2021-4-12 \[4月開催]<br />
+ホテル1-2-3前橋マーキュリー(前橋市大友町3-24-1)    地図<br />
+(027) 252-0111<br  />
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+![後藤 謙次](/img/04-1x.jpg "後藤 謙次 ごとう けんじ")
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+#### **後藤 謙次 ごとう けんじ<br />**
 
-## What the updates mean to you
+###### 政治ジャーナリスト<br />
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+《プロフィール》
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+東京都出身。早稲田大法学部卒。1973年、共同通信社入社。首相官邸クラブキャップ、政治部長、論説副委員長兼編集委員、編集局長を歴任。退職後、TBSの報道番組「NEWS 23」のキャスターに。2016年よりテレビ朝日「報道ステーション」コメンテーターを務める。現在「サンデーステーション」コメンテーター、共同通信社客員論説委員、白鴎大学名誉教授。著書に「小沢一郎50の謎を解く」など。週刊ダイヤモンドに政治コラム「永田町ライヴ！」を連載中。
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+##### <br />
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+##### 会場　ホテル1-2-3前橋マーキュリー<br />
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+##### 住所　前橋市大友町3-24-1
