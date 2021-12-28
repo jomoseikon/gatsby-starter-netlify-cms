@@ -9,7 +9,7 @@ description: 群馬政経懇話会は、新会員を募集しています。 毎
   併せて情報誌の定期配布なども行い、会員組織の「知的サロン」として喜ばれています。 年会費は72,000円です。
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/coffee.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
