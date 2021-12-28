@@ -10,10 +10,12 @@ mainpitch:
 description: 情報を先取り！将来のビジョン形成にお役立てください。 群馬政経懇話会は、豊富な講師陣で良質な講演をお届けする"知的サロン"です。
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/coffee.jpg
       text: |-
         世界の動きは目まぐるしく変化し、国内外の情勢をより早く、より正確に知ることは一層重要視されています。
         上毛新聞社は、県内の各界のご支援を得て、群馬県の政治・経済・文化の発展に寄与するため、昭和43年4月に「群馬政経懇話会」を設立しました。
+    - image: /img/coffee-gear.jpg
+      text: 様々な分野のコミュニティーとしてつながりをもつ内容を準備しております。
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
