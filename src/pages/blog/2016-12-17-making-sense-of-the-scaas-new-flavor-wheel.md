@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 迫る東京五輪と解散総選挙の行方
-date: 2016-12-17T15:04:10.000Z
+date: 2021-04-11T15:04:10.000Z
 description: |+
   後藤 謙次
 
