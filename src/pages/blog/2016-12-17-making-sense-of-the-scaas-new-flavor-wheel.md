@@ -6,7 +6,7 @@ description: |+
   後藤 謙次
 
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/04-1x.jpg
 tags: []
 ---
 2021-4-12 \[4月開催]<br />
