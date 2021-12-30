@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
-                        過去の講演を見る
+                        ご入会のご案内について
                       </Link>
                     </div>
                   </div>

@@ -9,6 +9,7 @@ import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
+
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
   image,
@@ -42,6 +43,11 @@ export const ProductPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <Features gridItems={intro.blurbs} /> 
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                <a className="btn" href={'../static/seikon2021.pdf'} download>PDFをダウンロード</a>
+                  </div>
+                </div>
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
@@ -105,6 +111,9 @@ ProductPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  attachments: PropTypes.shape({
+    publicURL: PropTypes.string,
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
@@ -228,5 +237,5 @@ export const productPageQuery = graphql`
         }
       }
     }
-  }
+  },
 `;
