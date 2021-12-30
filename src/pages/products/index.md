@@ -19,7 +19,7 @@ intro:
         様々な社会の変化に対応する考え方や、解決する課題を見つけるきっかけにしていただけます。
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
+        <a href="/img/seikon.pdf">PDF</a>, but never knew how to make one? Bought a
         fancy new Chemex but have no clue how to use it? Don't worry, we’re here
         to help. You can schedule a custom 1-on-1 consultation with our baristas
         to learn anything you want to know about coffee roasting and brewing.
