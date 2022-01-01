@@ -10,19 +10,36 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/home-jumbotron.jpg')`,
+            display:"grid",
           }}
-        >
+        > 
+          <h3
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          style={{
+                  boxShadow:
+                    "rgba(255, 255, 255,0)",
+                  backgroundColor: "rgba(255, 68, 0,0)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25rem",
+                  marginTop: "0.5rem",
+                }}
+          >〜混沌の時代を読み解く"知的交流サロン"〜
+          </h3>
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
-              color: "white",
-              padding: "1rem",
+              boxShadow:
+                    "rgba(255, 255, 255,0)",
+                  backgroundColor: "rgba(255, 68, 0,0)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25em",
+                  letterSpacing:"30px",
             }}
           >
-            Latest Stories
+            群馬政経懇話会
           </h1>
         </div>
         <section className="section">

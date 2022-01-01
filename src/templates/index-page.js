@@ -31,10 +31,10 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="title">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h3 className="subtitle is-6">{mainpitch.description}</h3>
                     </div>
                     <div className="title">
-                      <h1 className="title">{mainpitch.title}</h1>
+                      <h1 className="title is-6">{mainpitch.title}</h1>
                     </div>
                   </div>
                   <div className="columns">
@@ -49,18 +49,18 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
-                        See all products
+                        ご入会のご案内について
                       </Link>
                     </div>
                   </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+                      最近の講演
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
-                        Read more
+                        もっと見る
                       </Link>
                     </div>
                   </div>
