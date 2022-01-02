@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -45,7 +45,9 @@ export const ProductPageTemplate = ({
                 <Features gridItems={intro.blurbs} /> 
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                <a className="btn" href={'../static/seikon2021.pdf'} download>PDFをダウンロード</a>
+                    <Link className="btn" to="https://jomo-news-form.spiral-site.com/discussion">
+                        入会申込み
+                      </Link>
                   </div>
                 </div>
                 <div className="columns">

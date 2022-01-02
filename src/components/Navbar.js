@@ -41,9 +41,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "120px" }} />
-            </Link>
+          <a href="http://jomo-news.co.jp/" target="_blank" rel="noreferrer" className="navbar-item" >
+              <img src={logo} alt="" style={{ width: "120px" }} />
+            </a>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
