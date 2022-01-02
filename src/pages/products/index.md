@@ -19,18 +19,10 @@ intro:
         様々な社会の変化に対応する考え方や、解決する課題を見つけるきっかけにしていただけます。
     - image: /img/tutorials.png
       text: >
-        <a href="/img/seikon.pdf">PDF</a>, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+       様々な分野の人の話を聞く機会は、考えやアクテビティを向上させる良いきっかけとなります。また、現代社会の中で、最近の情報をすばやく取り入れることは、時代を生き抜くために必須です。適切なキーワードやネットワークを探すのも、様々な視点が必要になります。
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        整形懇話会に参加することで、アクティブなモチベーションをリセットすることができます。また少し、時間をおくことで、日頃の習慣から息抜きをしてリフレッシュできます。また、人に会うことで、新しいコミュニティーに参加するきっかけになり、新たな視点で人との接点を提供します。
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -38,12 +30,9 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: ビジネスコミュニティー
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    日常から少し離れて、いつもと違う空間と時間で、気持ちを切り替えることで、新しいアイデアや考えを整理するきっかけになります。人と食事をして、人と会話するためのいい空間づくりを目指します。
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -62,30 +51,28 @@ testimonials:
       their stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
-  description: We make it easy to make great coffee a part of your life. Choose
-    one of our monthly subscription plans to receive great coffee at your
-    doorstep each month. Contact us about more details and payment info.
+  heading: お申込み方法
+  description: お申込みは、電話、Fax、ネットからお願いします。
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: 027-254-9955
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: "50"
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+        - 群馬政経懇話会事務局
+        - （上毛新聞者営業局事業部）
+        - 平日 9:00〜17:00
+      plan: 
+      price: "電話"
+    - description: 027-254-9906
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: "80"
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - 
+        - 
+        - 
+      plan: 
+      price: "FAX"
+    - description: ""
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: ??
+        - 
+        - 
+        - 
+      plan: ""
+      price: "フォーム"
 ---

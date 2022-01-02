@@ -10,12 +10,12 @@ const Pricing = ({ data }) => (
             {price.plan}
           </h4>
           <h2 className="is-size-1 has-text-weight-bold has-text-primary has-text-centered">
-            ${price.price}
+            {price.price}
           </h2>
-          <p className="has-text-weight-semibold">{price.description}</p>
+          <p className="has-text-weight-semibold is-size-3">{price.description}</p>
           <ul>
             {price.items.map((item) => (
-              <li key={item} className="is-size-5">
+              <li key={item} className="is-size-6">
                 {item}
               </li>
             ))}

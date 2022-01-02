@@ -53,9 +53,9 @@ const Navbar = class extends React.Component {
               onKeyPress={() => this.toggleHamburger()}
               onClick={() => this.toggleHamburger()}
             >
-              <span />
-              <span />
-              <span />
+              <span style={{color:"white"}} />
+              <span style={{color:"white"}} />
+              <span style={{color:"white"}} />
             </div>
           </div>
           <div

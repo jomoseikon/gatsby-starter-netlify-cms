@@ -39,6 +39,20 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {  // 追加
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_self",
+              rel: "nofollow"
+            }
+          }
+          ]
+        }
+      }, // 追加
     {
       resolve: "gatsby-transformer-remark",
       options: {
