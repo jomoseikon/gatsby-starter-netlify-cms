@@ -68,9 +68,9 @@ pricing:
         - 
       plan: 
       price: "FAX"
-    - description: "お申込みは上の「入会申込みフォーム」からお申込みください"
+    - description:
       items:
-        - 
+        - "お申込みは上の「入会申込みフォーム」からお申込みください"
         - 
         - 
       plan: ""
