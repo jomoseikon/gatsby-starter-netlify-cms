@@ -42,7 +42,7 @@ class BlogRollTemplate extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
+                    <span> &emsp; </span>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
@@ -53,7 +53,7 @@ class BlogRollTemplate extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    続きを読む →
                   </Link>
                 </p>
               </article>
@@ -84,7 +84,7 @@ export default function BlogRoll() {
           ) {
             edges {
               node {
-                excerpt(pruneLength: 400)
+                excerpt(format:PLAIN,pruneLength: 130)
                 id
                 fields {
                   slug
@@ -92,7 +92,7 @@ export default function BlogRoll() {
                 frontmatter {
                   title
                   templateKey
-                  date(formatString: "MMMM DD, YYYY")
+                  date(formatString: "YYYY-MM-DD")
                   featuredpost
                   featuredimage {
                     childImageSharp {
