@@ -76,7 +76,7 @@ export default function FullWidthImage(props) {
             
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
                     "rgba(255, 255, 255,0)",
@@ -100,7 +100,7 @@ export default function FullWidthImage(props) {
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25em",
-                  letterSpacing:"30px",
+                  letterSpacing:"20px",
                 }}
                 >
                 {title}
