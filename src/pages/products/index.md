@@ -41,7 +41,7 @@ main:
     image: /img/products-grid2.jpg
   image3:
     alt: Coffee beans
-    image: ./static/img/products-full-width.jpg
+    image: /img/products-full-width.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
