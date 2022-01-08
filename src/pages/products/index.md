@@ -1,9 +1,9 @@
 ---
 heading: 入会のご案内
-subheading: 〜混沌の時代を読み解く"知的交流サロン"〜
+subheading: " "
 path: /products
 templateKey: product-page
-title: 群馬政経懇話会
+title: " "
 image: /img/home-jumbotron.jpg
 description: 群馬政経懇話会は、新会員を募集しています。
 intro:

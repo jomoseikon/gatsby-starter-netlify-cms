@@ -50,7 +50,7 @@ export default function FullWidthImage(props) {
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
+              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url('/img/home-jumbotron.jpg');",
               clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
             }}
             layout="fullWidth"
@@ -73,7 +73,11 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-            
+                      <img src="/img/seikei_title.svg" 
+          style={{
+            width:"600px",
+            marginTop: "-1rem",
+          }}/>
             {subheading && (
               <h3
                 className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
