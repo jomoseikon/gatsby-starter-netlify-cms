@@ -49,21 +49,23 @@ export const ProductPageTemplate = ({
  <br />
 <table className="table is-striped tbl__inner">
   <tr>
-    <td>入会金</td>
-    <td></td>
+    <td colSpan={2}>経営者、自治体、議会、各種団体などの会員で構成</td>
+  </tr>
+  <tr>
+    <td colSpan={2}>毎月1回（8月休会）昼食後に講演会を開催（代理出席も可能）</td>
   </tr>
   <tr>
     <td>年会費</td>
-    <td>72,000円&emsp;毎月1回（8月休会）</td>
+    <td>72,000円&emsp;</td>
   </tr>
   <tr>
     <td>会場</td>
-    <td>その都度お知らせします</td>
+    <td>前橋市内</td>
   </tr>
   <tr>
     <td>問い合わせ</td>
-    <td>上毛新聞社営業局事業部内&emsp;群馬政経懇話会事務局<br />
-  TEL: 027-254-9955&emsp;FAX: 027-254-9906</td>
+    <td>群馬政経懇話会事務局（上毛新聞社営業局事業部内）<br />
+  TEL: 027-254-9955&emsp;FAX: 027-254-9906（平日&emsp;9:00〜17:00）</td>
   </tr>
 </table>
 </div>
@@ -239,7 +241,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(quality: 72, layout: FULL_WIDTH)
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
               }
             }
           }
