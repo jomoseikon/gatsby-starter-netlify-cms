@@ -52,7 +52,10 @@ export const ProductPageTemplate = ({
     <td colSpan={2}>経営者、自治体、議会、各種団体などの会員で構成</td>
   </tr>
   <tr>
-    <td colSpan={2}>毎月1回（8月休会）昼食後に講演会を開催（代理出席も可能）</td>
+    <td colSpan={2}>毎月1回（8月休会）昼食後に多彩な講師を迎えて講演会を開催（代理出席も可能）</td>
+  </tr>
+  <tr>
+    <td colSpan={2}>経済誌「プレジデント」（月2回）お届け</td>
   </tr>
   <tr>
     <td>年会費</td>

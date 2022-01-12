@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
                 入会のご案内
               </Link>
               <Link className="navbar-item" to="/blog">
-                過去の講演
+                最近の講演
               </Link>
               <Link className="navbar-item" to="/about">
                 会則

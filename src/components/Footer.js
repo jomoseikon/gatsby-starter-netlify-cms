@@ -47,7 +47,7 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        過去の講演
+                        最近の講演
                       </Link>
                     </li>
                     <li>
