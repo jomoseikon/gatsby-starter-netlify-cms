@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "群馬政経懇話会",
@@ -51,6 +55,12 @@ module.exports = {
             }
           }
           ]
+        }
+      },
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          trackingIds: [process.env.GATSBY_TRACKING_ID],
         }
       }, // 追加
     {
