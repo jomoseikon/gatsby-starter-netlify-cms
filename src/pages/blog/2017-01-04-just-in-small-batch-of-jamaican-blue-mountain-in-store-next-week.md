@@ -5,7 +5,8 @@ date: 2021-05-16T15:04:10.000Z
 description: 大崎 麻子
 featuredpost: false
 featuredimage: /img/05-1x.jpg
-tags: []
+tags:
+  - '"女性活躍"'
 ---
 2021-5-17 \[5月開催]<br />群馬ロイヤルホテル(前橋市大手町1-9-7) 　地図<br />Tel. (027) 223-6111<br />
 
