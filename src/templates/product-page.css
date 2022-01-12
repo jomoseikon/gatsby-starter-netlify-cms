@@ -1,0 +1,39 @@
+/* table 水平スクロール */
+table {
+    margin: auto;
+     border-collapse: collapse;
+     overflow-x: auto;
+     display: block;
+     width: fit-content;
+     max-width: 1 1rem;
+   }
+   table td{
+     white-space:nowrap; 
+   }
+   
+   /* 横スクロールバー */
+   .tbl__wrap {
+     overflow-x: scroll;
+     /* border-left:3px solid #efefef;
+     border-top:3px solid #efefef; */
+   }
+   .tbl__wrap::-webkit-scrollbar {
+     height: 10px;
+   }
+   
+   /* タブレット用 */
+   @media (min-width:56rem) {
+   
+   .tbl-inner td{
+        border:1px solid #ccc;
+   }  
+   } 
+   /* pc用　*/
+   @media (min-width:40rem) {
+   
+   .tbl-inner {
+        width:90%;
+        margin:0 auto;
+   } 
+   
+   }

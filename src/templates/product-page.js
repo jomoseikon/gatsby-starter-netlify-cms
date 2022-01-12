@@ -8,7 +8,7 @@ import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
-
+import "./product-page.css"
 
 // eslint-disable-next-line
 export const ProductPageTemplate = ({

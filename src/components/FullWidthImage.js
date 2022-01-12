@@ -37,7 +37,7 @@ export default function FullWidthImage(props) {
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
             // This is a presentational image, so the alt should be an empty string
-            alt=""
+            alt="business"
             formats={["auto", "webp", "avif"]}
           />
         ) : (
@@ -57,7 +57,7 @@ export default function FullWidthImage(props) {
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
             // This is a presentational image, so the alt should be an empty string
-            alt=""
+            alt="business"
             formats={["auto", "webp", "avif"]}
           />
         )}
@@ -74,6 +74,7 @@ export default function FullWidthImage(props) {
           >
             {/* Any content here will be centered in the component */}
               <img src="/img/seikei_title.svg" 
+          alt="business"
           style={{
             width:"600px",
             marginTop: "-1rem",
