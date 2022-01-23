@@ -4,9 +4,9 @@
 
 **Note:** This starter uses [Gatsby v4](https://www.gatsbyjs.com/gatsby-4/).
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
+〜混沌の時代を読み解く"知的交流サロン"〜 群馬政経懇話会は目的達成のため、さらなる発展と向上を目指し、県内外で活躍する一流の講師を招いて講演会を開き、激動する社会の指針となるホットな情報を提供するとともに、会員相互の知的交流を深めております。 
 
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
+世界の動きは目まぐるしく変化し、国内外の情勢をより早く、より正確に知ることは一層重要視されています。 上毛新聞社は、県内の各界のご支援を得て、群馬県の政治・経済・文化の発展に寄与するため、昭和43年4月に「群馬政経懇話会」を設立しました。
 
 ## Features
 
