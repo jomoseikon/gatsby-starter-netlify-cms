@@ -2,7 +2,7 @@
 templateKey: index-page
 title: " "
 image: /img/home-jumbotron.jpg
-heading: 群馬政経懇話会 - 上毛新聞社
+heading: 群馬政経懇話会
 subheading: " "
 mainpitch:
   title: 群馬政経懇話会は目的達成のため、さらなる発展と向上を目指し、県内外で活躍する一流の講師を招いて講演会を開き、激動する社会の指針となるホットな情報を提供するとともに、会員相互の知的交流を深めております。
