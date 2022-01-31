@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
+import { FaFilePdf } from 'react-icons/fa';
 
 import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
@@ -74,9 +75,10 @@ export const ProductPageTemplate = ({
 </div>
 </div>
 </div>
-
+<br />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
+                    <a href={`/seikon2021.pdf`} target="_blank" rel="noreferrer" style={{ fontSize:'1.3rem', fontWeight: '400', display:'block', color:'#4d9ef5'}}><FaFilePdf />&emsp;PDF ダウンロード</a><br /><br />
                     <Link className="btn" to="https://jomo-news-form.spiral-site.com/discussion">
                         入会申込みフォーム
                       </Link>
