@@ -5,12 +5,18 @@ div.margin-top-0 {
 /* only IE10 以降 */
 @media all and (-ms-high-contrast: none) {
 div.margin-top-0 {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    position:relative;
+}
+div.margin-top-0 div:nth-child(1){
+    position:absolute;
+    top:0%;
+    left:0%;
 }
 div.margin-top-0 div:nth-child(2) {
-    margin:3rem auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 }
 
