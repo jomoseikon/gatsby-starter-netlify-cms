@@ -5,10 +5,11 @@ div.margin-top-0 {
 /* only IE10 以降 */
 @media all and (-ms-high-contrast: none) {
 div.margin-top-0 {
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 div.margin-top-0 div:nth-child(2) {
-    position:absolute;
     margin:3rem auto;
 }
 }
