@@ -26,13 +26,15 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+            gridRow:"1 / -1",
+              //gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url(/img/home-jumbotron.jpg)",
-              backgroundPosition:"center center",
+              background:"url(/img/home-jumbotron.jpg)",
+              //backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"top center",
               zIndex:0
             }}
             // You can optionally force an aspect ratio for the generated image
@@ -47,12 +49,14 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridRow:"1 / -1",
+              //gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url(/img/home-jumbotron.jpg)",
-              backgroundPosition:"center center",
+              background:"url(/img/home-jumbotron.jpg)",
+              //backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"top center",
               zIndex:0
             }}
             layout="fullWidth"
@@ -67,19 +71,20 @@ export default function FullWidthImage(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
-              gridArea: "1/1",
-              position: "relative",
+              //gridArea: "1/1",
+              position: "absolute",
               // This centers the other elements inside the hero component
               placeItems: "center",
+              justifySelf:"center",
               display: "grid",
             }}
           >
             {/* Any content here will be centered in the component */}
               <img src="/img/seikei_title.svg" 
-          alt="business"
+          alt="群馬政経懇話会"
           style={{
             width:"600px",
-            marginTop: "-1rem",
+            marginTop: ".5rem",
           }}/>
             {subheading && (
               <h3

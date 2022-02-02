@@ -1,4 +1,6 @@
-
+div.margin-top-0 {
+  clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
 
 /* only IE10 以降 */
 @media all and (-ms-high-contrast: none) {
@@ -8,6 +10,3 @@ border:none;
 
 }
 
-div.margin-top-0 {
-  clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
-}
