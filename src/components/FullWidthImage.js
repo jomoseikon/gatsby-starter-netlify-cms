@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "top center",
   } = props;
 
   return (
@@ -31,8 +31,8 @@ export default function FullWidthImage(props) {
               height: height,
               width: "100%",
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
-              borderColor:"1px solid orangeRed",
+              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"center center",
               zIndex:0
             }}
             // You can optionally force an aspect ratio for the generated image
@@ -51,9 +51,9 @@ export default function FullWidthImage(props) {
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url('/img/home-jumbotron.jpg');",
-              zIndex:0,
-              border:"px solid orangered"
+              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"center center",
+              zIndex:0
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
