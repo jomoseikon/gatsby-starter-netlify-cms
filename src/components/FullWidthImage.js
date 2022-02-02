@@ -17,7 +17,8 @@ export default function FullWidthImage(props) {
         className="margin-top-0"
         style={{
           display: "grid",
-          alignItems: "center",
+          justifySelf:"center",
+
         }}
       >
         {img?.url ? (
@@ -85,6 +86,7 @@ export default function FullWidthImage(props) {
           style={{
             width:"600px",
             marginTop: ".5rem",
+            gridRow:"1 / -1"
           }}/>
             {subheading && (
               <h3
