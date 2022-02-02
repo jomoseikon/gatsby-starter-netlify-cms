@@ -75,7 +75,6 @@ export default function FullWidthImage(props) {
               //gridArea: "1/1",
               position: "absolute",
               // This centers the other elements inside the hero component
-              placeItems: "center",
               justifySelf:"center",
               display: "grid",
             }}
@@ -85,7 +84,7 @@ export default function FullWidthImage(props) {
           alt="群馬政経懇話会"
           style={{
             width:"600px",
-            marginTop: ".5rem",
+            marginTop: "3rem",
             gridRow:"1 / -1"
           }}/>
             {subheading && (

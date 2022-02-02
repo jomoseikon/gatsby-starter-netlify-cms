@@ -5,7 +5,8 @@ div.margin-top-0 {
 /* only IE10 以降 */
 @media all and (-ms-high-contrast: none) {
 div.margin-top-0 {
-border:none;
+    position:absolute;
+    margin:3rem auto;
 }
 
 }
