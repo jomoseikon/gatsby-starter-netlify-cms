@@ -32,7 +32,8 @@ export default function FullWidthImage(props) {
               width: "100%",
               backgroundSize:"cover",
               backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
-              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
+              borderColor:"1px solid orangeRed",
+              zIndex:0
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
@@ -51,7 +52,8 @@ export default function FullWidthImage(props) {
               maxHeight: height,
               backgroundSize:"cover",
               backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url('/img/home-jumbotron.jpg');",
-              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
+              zIndex:0,
+              border:"px solid orangered"
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -89,6 +91,7 @@ export default function FullWidthImage(props) {
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
+                  zIndex:"q",
                   marginTop: "0.5rem",
                 }}
               >

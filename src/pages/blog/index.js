@@ -15,6 +15,7 @@ export default class BlogIndexPage extends React.Component {
           }}
         > 
           <img src="/img/seikei_title.svg" 
+          alt=""
           style={{
             width:"600px",
             marginTop: "2.5rem",
