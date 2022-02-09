@@ -18,7 +18,7 @@ export default function FullWidthImage(props) {
         style={{
           display: "grid",
           justifySelf:"center",
-
+          position:"relative",
         }}
       >
         {img?.url ? (
@@ -73,10 +73,14 @@ export default function FullWidthImage(props) {
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               //gridArea: "1/1",
+              width: "580px",
               position: "absolute",
+              display: "grid",
+              top:"35%",
+              left:"50%",
+              transform:"translate(-50%, -50%)",
               // This centers the other elements inside the hero component
               justifySelf:"center",
-              display: "grid",
             }}
           >
             {/* Any content here will be centered in the component */}
