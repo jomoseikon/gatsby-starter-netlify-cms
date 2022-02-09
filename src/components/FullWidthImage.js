@@ -73,12 +73,12 @@ export default function FullWidthImage(props) {
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               //gridArea: "1/1",
-              width: "580px",
+              //width: "580px",
               position: "absolute",
               display: "grid",
-              top:"35%",
-              left:"50%",
-              transform:"translate(-50%, -50%)",
+              //top:"35%",
+              //left:"50%",
+              //transform:"translate(-50%, -50%)",
               // This centers the other elements inside the hero component
               justifySelf:"center",
             }}
