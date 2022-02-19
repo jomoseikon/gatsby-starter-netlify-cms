@@ -63,16 +63,16 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" to="/" style={{backgroundColor:"rgba(40,86,161,1)"}}>
                  トップページ
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item" to="/products" style={{backgroundColor:"rgba(40,86,161,1)"}}>
                 入会のご案内
               </Link>
-              <Link className="navbar-item" to="/blog">
-                過去の講演
+              <Link className="navbar-item" to="/blog" style={{backgroundColor:"rgba(40,86,161,1)"}}>
+                最近の講演
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="/about" style={{backgroundColor:"rgba(40,86,161,1)"}}>
                 会則
               </Link>
             </div>

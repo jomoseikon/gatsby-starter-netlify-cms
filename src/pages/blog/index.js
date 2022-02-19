@@ -14,6 +14,12 @@ export default class BlogIndexPage extends React.Component {
             display:"grid",
           }}
         > 
+          <img src="/img/seikei_title.svg" 
+          alt=""
+          style={{
+            width:"600px",
+            marginTop: "2.5rem",
+          }}/>
           <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -25,7 +31,7 @@ export default class BlogIndexPage extends React.Component {
                   padding: "0.25rem",
                   marginTop: "0.5rem",
                 }}
-          >〜混沌の時代を読み解く"知的交流サロン"〜
+          >
           </h3>
           <h1
             className="has-text-weight-bold is-size-1"
@@ -39,7 +45,7 @@ export default class BlogIndexPage extends React.Component {
                   letterSpacing:"30px",
             }}
           >
-            群馬政経懇話会
+            
           </h1>
         </div>
         <section className="section">

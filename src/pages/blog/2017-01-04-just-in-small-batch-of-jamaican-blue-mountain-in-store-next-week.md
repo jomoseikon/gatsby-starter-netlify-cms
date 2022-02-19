@@ -3,13 +3,10 @@ templateKey: blog-post
 title: 地方創生と女性活躍：女性が活躍できない地域は、消滅する!?
 date: 2021-05-16T15:04:10.000Z
 description: 大崎 麻子
-featuredpost: true
+featuredpost: false
 featuredimage: /img/05-1x.jpg
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - '"女性活躍"'
 ---
 2021-5-17 \[5月開催]<br />群馬ロイヤルホテル(前橋市大手町1-9-7) 　地図<br />Tel. (027) 223-6111<br />
 

@@ -1,8 +1,12 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "群馬政経懇話会",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "群馬政経懇話会。県内外で活躍する一流の講師を招いて講演会を開き、激動とする社会の指針となるホットな情報を提供する、群馬政経懇話会を紹介します。",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -51,6 +55,12 @@ module.exports = {
             }
           }
           ]
+        }
+      },
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          trackingIds: [process.env.GATSBY_TRACKING_ID],
         }
       }, // 追加
     {

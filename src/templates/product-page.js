@@ -4,11 +4,12 @@ import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
+import { FaFilePdf } from 'react-icons/fa';
 
 import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
-
+import "./product-page.css"
 
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
@@ -49,29 +50,35 @@ export const ProductPageTemplate = ({
  <br />
 <table className="table is-striped tbl__inner">
   <tr>
-    <td>入会金</td>
-    <td></td>
+    <td colSpan={2}>●経営者、自治体、議会、各種団体などの会員で構成</td>
   </tr>
   <tr>
-    <td>年会費</td>
-    <td>72,000円&emsp;毎月1回（8月休会）</td>
+    <td colSpan={2}>●毎月1回（8月休会）昼食後に多彩な講師を迎えて講演会を開催（代理出席も可能）</td>
   </tr>
   <tr>
-    <td>会場</td>
-    <td>その都度お知らせします</td>
+    <td colSpan={2}>●経済誌「プレジデント」（月2回）お届け</td>
   </tr>
   <tr>
-    <td>問い合わせ</td>
-    <td>上毛新聞社営業局事業部内&emsp;群馬政経懇話会事務局<br />
-  TEL: 027-254-9955&emsp;FAX: 027-254-9906</td>
+    <td>●年会費</td>
+    <td>72,000円&emsp;</td>
+  </tr>
+  <tr>
+    <td>●会場</td>
+    <td>前橋市内</td>
+  </tr>
+  <tr>
+    <td>●問い合わせ</td>
+    <td>群馬政経懇話会事務局（上毛新聞社営業局事業部内）<br />
+  TEL: 027-254-9955&emsp;FAX: 027-254-9906（平日&emsp;9:00〜17:00）</td>
   </tr>
 </table>
 </div>
 </div>
 </div>
-
+<br />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
+                    <a href={`/seikon2021.pdf`} target="_blank" rel="noreferrer" style={{ fontSize:'1.3rem', fontWeight: '400', display:'block', color:'#4d9ef5'}}><FaFilePdf />&emsp;PDF ダウンロード</a><br /><br />
                     <Link className="btn" to="https://jomo-news-form.spiral-site.com/discussion">
                         入会申込みフォーム
                       </Link>
@@ -239,7 +246,7 @@ export const productPageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(quality: 72, layout: FULL_WIDTH)
+                gatsbyImageData(width: 526, quality: 92, layout: CONSTRAINED)
               }
             }
           }

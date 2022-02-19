@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "top center",
   } = props;
 
   return (
@@ -17,7 +17,8 @@ export default function FullWidthImage(props) {
         className="margin-top-0"
         style={{
           display: "grid",
-          alignItems: "center",
+          justifySelf:"center",
+          position:"relative",
         }}
       >
         {img?.url ? (
@@ -26,18 +27,21 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+            gridRow:"1 / -1",
+              //gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               height: height,
               width: "100%",
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
-              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
+              background:"url(/img/home-jumbotron.jpg)",
+              //backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"top center",
+              zIndex:0
             }}
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
             // This is a presentational image, so the alt should be an empty string
-            alt=""
+            alt="business"
             formats={["auto", "webp", "avif"]}
           />
         ) : (
@@ -46,18 +50,21 @@ export default function FullWidthImage(props) {
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{
-              gridArea: "1/1",
+              gridRow:"1 / -1",
+              //gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
               backgroundSize:"cover",
-              backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .8)) url('/img/home-jumbotron.jpg');",
-              clipPath:"polygon(0 0, 100% 0, 100% 85%, 0 100%)",
+              background:"url(/img/home-jumbotron.jpg)",
+              //backgroundImage:"linear-gradient(to right bottom, rgba(68,182,255, .8) rgba(86,67,250, .1)) url(/img/home-jumbotron.jpg)",
+              backgroundPosition:"top center",
+              zIndex:0
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
             aspectratio={3 / 1}
             // This is a presentational image, so the alt should be an empty string
-            alt=""
+            alt="business"
             formats={["auto", "webp", "avif"]}
           />
         )}
@@ -65,18 +72,28 @@ export default function FullWidthImage(props) {
           <div
             style={{
               // By using the same grid area for both, they are stacked on top of each other
-              gridArea: "1/1",
-              position: "relative",
-              // This centers the other elements inside the hero component
-              placeItems: "center",
+              //gridArea: "1/1",
+              //width: "580px",
+              position: "absolute",
               display: "grid",
+              //top:"35%",
+              //left:"50%",
+              //transform:"translate(-50%, -50%)",
+              // This centers the other elements inside the hero component
+              justifySelf:"center",
             }}
           >
             {/* Any content here will be centered in the component */}
-            
+              <img src="/img/seikei_title.svg" 
+          alt="群馬政経懇話会"
+          style={{
+            width:"600px",
+            marginTop: "3rem",
+            gridRow:"1 / -1"
+          }}/>
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
                     "rgba(255, 255, 255,0)",
@@ -84,6 +101,7 @@ export default function FullWidthImage(props) {
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
+                  zIndex:"q",
                   marginTop: "0.5rem",
                 }}
               >
@@ -100,7 +118,7 @@ export default function FullWidthImage(props) {
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25em",
-                  letterSpacing:"30px",
+                  letterSpacing:"20px",
                 }}
                 >
                 {title}
