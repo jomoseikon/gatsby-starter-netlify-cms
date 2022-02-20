@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
-import "./FullWidthImage.css"
+import "./FullWidthImage.css";
+import { graphql, useStaticQuery } from 'gatsby';
 export default function FullWidthImage(props) {
   const {
     height = 400,
@@ -10,6 +11,15 @@ export default function FullWidthImage(props) {
     subheading,
     imgPosition = "top center",
   } = props;
+  const image = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "seikei_title.svg" }) {
+        publicURL
+      }
+    }
+  `);
+  const { publicURL } = image.file;
+  console.log(publicURL); 
 
   return (
     <React.Fragment>
@@ -84,7 +94,7 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-              <img src="/img/seikei_title.svg" 
+              <img src={publicURL} 
           alt="群馬政経懇話会"
           style={{
             width:"600px",
