@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
-import "./FullWidthImage.css"
+import "./FullWidthImage.css";
+import title_svg from "/img/seikei_title.svg";
 export default function FullWidthImage(props) {
   const {
     height = 400,
@@ -84,7 +85,7 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-              <img src="/static/img/seikei_title.svg" 
+              <img src={title_svg} 
           alt="群馬政経懇話会"
           style={{
             width:"600px",
