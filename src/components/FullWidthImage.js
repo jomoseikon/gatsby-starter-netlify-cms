@@ -84,7 +84,7 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-              <img src="/img/seikei_title.svg" 
+              <img src="/static/img/seikei_title.svg" 
           alt="群馬政経懇話会"
           style={{
             width:"600px",
