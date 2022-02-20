@@ -48,18 +48,18 @@ export const IndexPageTemplate = ({
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
-                        ご入会のご案内について
+                         ご入会のご案内について
                       </Link>
                     </div>
                   </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      最近の講演
+                       最近の講演
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
-                        もっと見る
+                         もっと見る
                       </Link>
                     </div>
                   </div>
