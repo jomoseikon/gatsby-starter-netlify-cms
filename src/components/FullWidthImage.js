@@ -100,7 +100,7 @@ export default function FullWidthImage(props) {
             width:"600px",
             marginTop: "3rem",
             gridRow:"1 / -1"
-          }}/>
+          }} />
             {subheading && (
               <h3
                 className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen"
