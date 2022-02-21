@@ -62,7 +62,18 @@ module.exports = {
         options: {
           trackingIds: [process.env.GATSBY_TRACKING_ID],
         }
-      }, // 追加
+      }, 
+// 追加
+// 追加 svg
+      {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
+// 追加
     {
       resolve: "gatsby-transformer-remark",
       options: {
