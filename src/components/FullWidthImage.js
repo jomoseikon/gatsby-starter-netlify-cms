@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "./FullWidthImage.css";
-import { graphql, useStaticQuery } from 'gatsby';
+//import { graphql, useStaticQuery } from 'gatsby';
+import seikei from "../img/seikei_title.svg";
 export default function FullWidthImage(props) {
   const {
     height = 400,
@@ -11,15 +12,15 @@ export default function FullWidthImage(props) {
     subheading,
     imgPosition = "top center",
   } = props;
-  const image = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "seikei_title.svg" }) {
-        publicURL
-      }
-    }
-  `);
-  const { publicURL } = image.file;
-  console.log(publicURL); 
+  // const image = useStaticQuery(graphql`
+  //   query {
+  //     file(relativePath: { eq: "seikei_title.svg" }) {
+  //       publicURL
+  //     }
+  //   }
+  // `);
+  // const { publicURL } = image.file;
+  //console.log(publicURL); 
 
   return (
     <React.Fragment>
@@ -94,7 +95,7 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-              <img src={publicURL} 
+              <img src={seikei} 
           alt="群馬政経懇話会"
           style={{
             width:"600px",
