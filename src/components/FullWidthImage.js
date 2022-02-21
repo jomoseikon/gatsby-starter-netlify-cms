@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "./FullWidthImage.css";
 //import { graphql, useStaticQuery } from 'gatsby';
-import seikei from "../img/seikei_title.svg";
+import seikei from "../img/title.svg";
 export default function FullWidthImage(props) {
   const {
     height = 400,
